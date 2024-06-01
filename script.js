@@ -127,6 +127,7 @@ form.addEventListener('submit', function(event) {
     }
 
     recommendations.push(new Recommendation(formName, formDescription));
+    alert('Recommendation added successfully!');
 
     recommendationsList.innerHTML = '';
 

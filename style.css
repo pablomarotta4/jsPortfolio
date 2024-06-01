@@ -347,10 +347,21 @@
     background-color: #4B4B4B;
 }
 
+.project img {
+    background-color: transparent;
+}
+
 .project-img {
     width: 100%;
     max-width: 400px;
     margin-bottom: 10px;
+}
+
+.project a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #4B4B4B;
 }
 
 
@@ -400,6 +411,7 @@
     background-color: black;
     font-size: 3rem;
 }
+
 
 .recommendation-card {
     display: flex;
