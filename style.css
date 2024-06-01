@@ -126,6 +126,7 @@
 
 .menu-item a:hover {
     color: grey;
+    font-weight: bold;
 }
 
 .skills, .projects, .Recommendations {
@@ -502,6 +503,18 @@
     color: black;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+}
+
+#home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
     cursor: pointer;
 }
 

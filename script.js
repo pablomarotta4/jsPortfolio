@@ -127,7 +127,17 @@ form.addEventListener('submit', function(event) {
     }
 
     recommendations.push(new Recommendation(formName, formDescription));
-    alert('Recommendation added successfully!');
+
+    // Show success message
+    const successMessage = document.createElement('div');
+    successMessage.textContent = 'Form submitted successfully!';
+    successMessage.classList.add('success-message');
+    form.insertBefore(successMessage, form.lastElementChild);
+
+    // Remove success message after 3 seconds
+    setTimeout(() => {
+        successMessage.remove();
+    }, 3000);
 
     recommendationsList.innerHTML = '';
 
