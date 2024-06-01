@@ -597,6 +597,10 @@
         margin: 10px 0;
     }
 
+    .recommendations h1 {
+        font-size: 2rem;
+    }
+
     .recommendation-card h2 {
         font-size: 1.2rem;
     }
