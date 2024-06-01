@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a personal portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="home">
+                <div class="profile_data">
+                    <span id="profile-name"></span>
+                    <div id="profile_contact">
+                        <div class="profile-item">
+                            <div class="profile-img-container">  
+                            <a href="mailto: pablomarotta.pm@gmail.com">    
+                                <img src="images/email_3296464.png" alt="email" width="30px" height="30px">
+                            </a>
+                            </div>
+                            <div class="profile-text">pablomarotta.pm@gmail.com</div>
+                        </div>
+                        <div class="profile-item">
+                            <div class="profile-img-container">
+                            <a href="https://www.linkedin.com/in/pablo-marotta-7b1b3b1b1/">
+                                <img src="images/linkedin_3536505.png" alt="linkedin" width="30px" height="30px">
+                            </a>
+                            </div>
+                            <div class="profile-text"> Pablo Marotta </a>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+            </div>
+            <div class="menu">
+                <ul id="menu-bar">
+                    <li class="menu-item"><a href="#about">About Me</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#projects">Projects</a></li>
+                    <li class="menu-item"><a href="#recommendations">Recommendations</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="about">
+                <div id="about-img">
+                <img src="images/retrato.jpg" alt="profile" width="200px" height="275px">
+                </div>
+                <div id="about-text">
+                <h1>About Me</h1>
+                <p>Hi! I'm Pablo Marotta, a software engineer student with a passion for web development. I have experience in developing web applications using HTML, CSS, and JavaScript. I am also proficient in using React, Node.js, and MongoDB. I am currently looking for new opportunities to work on exciting projects and expand my skill set.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="skills">
+                <h1>Skills</h1>
+                    <div class="skill-list">
+                        <div class="skill">
+                            <div class="skill-img-container">
+                                <img src="images/html.png" alt="html" width="50px" height="50px">
+                            </div>
+                            <div class="skill-text">
+                                <h2>HTML</h2>
+                                <p>Proficient in creating web pages using HTML.</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-img-container">
+                                <img src="images/css.png" alt="css" width="50px" height="50px"> 
+                            </div>
+                            <div class="skill-text">
+                                <h2>CSS</h2>
+                                <p>Proficient in styling web pages using CSS.</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-img-container">
+                                <img src="images/js2.png" alt="javascript" width="50px" height="50px">
+                            </div>
+                            <div class="skill-text">
+                                <h2>JavaScript</h2>
+                                <p>Proficient in creating interactive web pages using JavaScript.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects">
+                <h1>Projects</h1>
+                <div class="project">
+                    <h2>TrabajoUY</h2>
+                    <img src="images/trabajoUy.png" alt="TrabajoUY" width="50px" height="50px" >
+                    <p>TrabajoUY is an application in which users can search for work and companies can hire employees, providing different options for types of job offers, where each company can select the most convenient one and users can also see the different jobs for which they have applied. This small application is part of a project for a subject at the Faculty of Engineering of Uruguay.</p>
+                    <a href="https://gitlab.fing.edu.uy/pablo.marotta/trabajo-uy">View Project</a>
+                </div>
+                <div class="project">
+                    <h2>Project 2</h2>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project">
+                    <h2>Project 3</h2>
+                    <p>Project description goes here.</p>
+                </div>
+            </div>
+        </section>
+        <section id="recommendations">
+            <div class="recommendations">
+                <h1>Recommendations</h1>
+                <div class="recommendation-list" id="recommendations-list">
+                </div>
+                <div class="recommendation-form">
+                    <h2>Leave a Recommendation</h2>
+                    <form id="recommendation-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" >
+                        <label for="recommendation">Recommendation:</label>
+                        <textarea id="recommendation" name="recommendation" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>  
+            </div>
+        </section>
+    
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <p>&copy; 2024 Pablo Marotta</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
